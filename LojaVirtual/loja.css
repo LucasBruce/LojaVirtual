@@ -39,11 +39,11 @@ h1{
 }
 /*formatacao de menu*/
 
+
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	position: absolute;
-	top: -20px;
+	position: fixed;
 	left: 755px;
 }
 
@@ -80,4 +80,11 @@ nav#menu a:hover:before{
 	 visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.menu-fixo{
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
